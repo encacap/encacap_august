@@ -1,0 +1,22 @@
+{
+  "name": "encacap_august",
+  "version": "1.0.0",
+  "description": "Encacap August Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encacap/encacap_august.git"
+  },
+  "keywords": [
+    "encacap"
+  ],
+  "author": "Nguyen Khac Khanh (Encacap)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/encacap/encacap_august/issues"
+  },
+  "homepage": "https://github.com/encacap/encacap_august#readme"
+}

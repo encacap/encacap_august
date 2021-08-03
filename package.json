@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/encacap/encacap_august/issues"
   },
-  "homepage": "https://github.com/encacap/encacap_august#readme"
+  "homepage": "https://github.com/encacap/encacap_august#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "tailwindcss": "^2.2.7"
+  }
 }

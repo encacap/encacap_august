@@ -1,3 +1,99 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* Notification */
+    .notification {
+        @apply fixed bottom-0 left-5;
+    }
+
+    .notification-item {
+        @apply w-full max-w-xs lg:max-w-md mb-5 border-2 border-blue-400 rounded-md p-5 bg-white;
+    }
+
+    .notification-header {
+        @apply flex items-center;
+    }
+
+    .notification-icon {
+        @apply flex-shrink-0 
+            flex 
+            items-center 
+            justify-center 
+            mr-3.5 
+            rounded-full
+            w-8
+            h-8
+            bg-blue-100
+            text-lg
+            text-blue-500;
+    }
+
+    .notification-title {
+        @apply flex-1 font-medium m-0;
+    }
+
+    .notification-close {
+        @apply flex
+            items-center
+            justify-center
+            flex-shrink-0
+            mt-1
+            text-xl text-gray-500
+            cursor-pointer;
+    }
+
+    .notification-content {
+        @apply mb-2 ml-11 text-sm text-gray-400 font-normal;
+    }
+
+    .notification-action {
+        @apply flex mt-4 ml-11 mb-2 mr-6;
+    }
+
+    .notification-action .btn:not(:first-child) {
+        @apply ml-4;
+    }
+
+    /* Notification -- Success */
+    .notification-success {
+        @apply border-green-500;
+    }
+
+    .notification-success .notification-icon {
+        @apply bg-green-100 text-green-500;
+    }
+
+    /* Notification -- Error */
+    .notification-error {
+        @apply border-red-500;
+    }
+
+    .notification-error .notification-icon {
+        @apply bg-red-100 text-red-500;
+    }
+
+    /* Notification -- Error */
+    .notification-warning {
+        @apply border-yellow-500;
+    }
+
+    .notification-warning .notification-icon {
+        @apply bg-yellow-100 text-yellow-500;
+    }
+
+    /* --- */
+    /* Button */
+    .btn {
+        @apply w-full border-2 rounded-lg p-2 font-semibold;
+    }
+
+    .btn-primary {
+        @apply border-transparent bg-blue-400 text-white;
+    }
+
+    .btn-light {
+        @apply border-gray-200 text-gray-400;
+    }
+}

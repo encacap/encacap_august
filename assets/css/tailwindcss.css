@@ -622,6 +622,165 @@ video {
   }
 }
 
+/* Notification */
+
+.notification {
+  position: fixed;
+  bottom: 0px;
+  left: 1.25rem;
+}
+
+.notification-item {
+  margin-bottom: 1.25rem;
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 0.375rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(96, 165, 250, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .notification-item {
+    max-width: 28rem;
+  }
+}
+
+.notification-header {
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  margin-right: 0.875rem;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(219, 234, 254, var(--tw-bg-opacity));
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+.notification-title {
+  margin: 0px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
+
+.notification-close {
+  margin-top: 0.25rem;
+  display: flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.notification-content {
+  margin-bottom: 0.5rem;
+  margin-left: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.notification-action {
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.75rem;
+  display: flex;
+}
+
+.notification-action .btn:not(:first-child) {
+  margin-left: 1rem;
+}
+
+/* Notification -- Success */
+
+.notification-success {
+  --tw-border-opacity: 1;
+  border-color: rgba(16, 185, 129, var(--tw-border-opacity));
+}
+
+.notification-success .notification-icon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 250, 229, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(16, 185, 129, var(--tw-text-opacity));
+}
+
+/* Notification -- Error */
+
+.notification-error {
+  --tw-border-opacity: 1;
+  border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+}
+
+.notification-error .notification-icon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+/* Notification -- Error */
+
+.notification-warning {
+  --tw-border-opacity: 1;
+  border-color: rgba(245, 158, 11, var(--tw-border-opacity));
+}
+
+.notification-warning .notification-icon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(245, 158, 11, var(--tw-text-opacity));
+}
+
+/* --- */
+
+/* Button */
+
+.btn {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn-light {
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

@@ -1,26 +1,26 @@
 {
-  "name": "encacap_august",
-  "version": "1.0.0",
-  "description": "Encacap August Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/encacap/encacap_august.git"
-  },
-  "keywords": [
-    "encacap"
-  ],
-  "author": "Nguyen Khac Khanh (Encacap)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/encacap/encacap_august/issues"
-  },
-  "homepage": "https://github.com/encacap/encacap_august#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "tailwindcss": "^2.2.7"
-  }
+    "name": "encacap_august",
+    "version": "1.0.0",
+    "description": "Encacap August Project",
+    "main": "index.js",
+    "scripts": {
+        "tailwindcss": "npx tailwindcss -i .\\resources\\tailwindcss\\tailwindcss.css -o .assets\\css\\tailwindcss.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/encacap/encacap_august.git"
+    },
+    "keywords": [
+        "encacap"
+    ],
+    "author": "Nguyen Khac Khanh (Encacap)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/encacap/encacap_august/issues"
+    },
+    "homepage": "https://github.com/encacap/encacap_august#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.3.1",
+        "tailwindcss": "^2.2.7"
+    }
 }

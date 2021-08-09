@@ -5,11 +5,11 @@
 @layer components {
     /* Notification */
     .notification {
-        @apply fixed bottom-0 left-5;
+        @apply fixed bottom-0 left-5 w-full max-w-xs lg:max-w-md;
     }
 
     .notification-item {
-        @apply w-full max-w-xs lg:max-w-md mb-5 border-2 border-blue-400 rounded-md p-5 bg-white;
+        @apply w-full mb-5 border-2 border-blue-400 rounded-md p-5 bg-white;
     }
 
     .notification-header {
@@ -86,7 +86,7 @@
     /* --- */
     /* Button */
     .btn {
-        @apply w-full border-2 rounded-lg p-2 font-semibold;
+        @apply w-full border-2 rounded-lg p-2 font-semibold text-sm;
     }
 
     .btn-primary {
